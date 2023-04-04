@@ -1,10 +1,10 @@
-<!-- # # end to end website
-# * create RDS aurora
-# * free tier
-# * public
+# End to end website - EC2 instance
+#
+1) create RDS aurora
+> free tier / public
 
 
-# 2) create bucket
+2) create S3 bucket
 
 # 3) ec2 - ubuntu
 
@@ -26,9 +26,12 @@
 
 9_ when enter information will be stored in RDS database.
 
-# // -->
+10) upload code to Github repository
 
-sudo apt-get update
+11) clone code to ec2 instance
+12) install necessary dependencies - 
+
+<code> sudo apt-get update
 # For Sql-client
 sudo apt-get install mysql-client
 
@@ -41,3 +44,8 @@ sudo apt-get install python3-boto3
 
 # for running application
 sudo python3 Empapp.py
+
+</code>
+
+13) Create AWS role allowing Administrator access to allow S3 access to EC2 instance / attach role to EC2 
+
