@@ -49,5 +49,7 @@ sudo python3 Empapp.py
 
 ![img](img/add_role.PNG)
 
+15) Hosted app on route53. 
 
+![img](img/route53.PNG)
 
